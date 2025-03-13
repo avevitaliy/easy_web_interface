@@ -25,12 +25,4 @@ if(file_exists(Q_PATH.'/routers/index')) {
 		    echo "<li><a href='/".$routdir."'>".$routdir."</a></li>";
 		}
 	    }
-
-//echo $router;
-
-
-
-	    //<li class="active"><a href="#">HLS for Smart TV</a></li>
-	    //<li><a href="/stalker">HLS for Stalker Portal</a></li>
-
 ?>

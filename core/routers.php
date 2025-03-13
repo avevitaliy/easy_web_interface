@@ -23,13 +23,14 @@ class Route {
 
         if(file_exists(Q_PATH.'/routers/'.$router.'/main.php')) {
             include Q_PATH.'/core/template.php';
-	    exit;
+            exit;
         }
         else {
-	    $router = '/../core/404';
-	    include Q_PATH.'/core/template.php';
+            $router = '/../core/404';
+            include Q_PATH.'/core/template.php';
         }
 
     }
+
 
 }
